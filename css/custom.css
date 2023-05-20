@@ -1,0 +1,82 @@
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+hr.cut {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+#banner {
+    background-size: cover;
+}
+
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+#feature-i {
+    font-size: 8em;
+    padding-bottom: 3vh;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 480px;
+}
+
+#feature-first {
+    background: linear-gradient(168deg, #ffffff 55%, #00d5ff 0);
+}
+
+#feature-mid {
+    background: #00d5ff;
+}
+
+#feature-end {
+    background: linear-gradient(-168deg, #00d5ff 55%, #ffffff 0);
+}
+
+#feature-last {
+    background: #ffffff;
+}
+
+#copyright {
+    background: #1a1a1a;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+}
+
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
